@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0; 
+    border: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+} 
+
+body {
+    text-align: center; 
+    font-family: Comfortaa;
+}
+
+.Logo {
+    margin-left: 25px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #040117;
+    height: 70px;
+    width: 100;
+}
+
+.navegador {
+    display: flex;
+    margin-right: 15px;
+}
+
+.navegador a {
+    padding: 23px;
+    color: rgb(192, 192, 240);
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+a:hover {
+    background-color: rgb(144, 200, 255); opacity: 90%;
+}
+
+.Texto_Prinicipal {
+    font-size: 10px;
+    text-align: center;
+    padding: 100px;
+    background-image: url(./../img/backgroup.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Contenido {
+    padding: 60px;
+}
+
+.Contenido a{
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #03102c;
+    color: rgb(183, 222, 255);
+}
+
+.año {
+    text-align: end;
+    color: rgb(7, 11, 52);
+    font-size: 15px;
+
+}
+
+.Abuelo {
+    text-align: center;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+
+.Texto_Secundario {
+    color: aliceblue;
+    background-image: url(./../img/dgg2n19-a44705d7-a470-41a8-bc7b-87264876c80f.jpg);
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.Informacion {
+    background-color: rgba(72, 37, 23, 0.7); 
+    padding: 50px;
+    flex-basis: 50%;
+    margin-right: 50px;
+}
+s
+.Informacion h1 {
+    font-size: 55px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.Modos_De_Juegos {
+    border: #221b4e;
+    color: rgb(29, 56, 80);
+    margin: 40px;
+}
+
+.Modos_De_Juegos h1 {
+    padding: 20px;
+}
+
+.Secciones_Juegos {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.Singler_Player {
+
+    margin: 40px;
+    margin: 30px;
+    box-shadow: 0px 0px 20px rgba(7, 11, 52, 0.5);
+}
+
+.Multi-Player {
+    margin: 25px;
+    margin: 30px;
+    box-shadow: 0px 0px 20px rgba(7, 11, 52, 0.5);
+}
+
+.imagen {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.NoticiasTittle {
+    padding: 0 0 100px 0;
+    margin: 40px;
+    text-align: center;
+    background-color: #03102c;
+    color: aliceblue;
+}
+
+.NoticiasTittle h1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.Noticias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+    
+.Seccion_Noticia h3 {
+    padding-top: 20px;
+}
+        
+.Seccion_Noticia p {
+   padding: 10px;
+}
+            
+.Seccion_Noticia {
+    border: #aba9b7;
+    padding-top: 20px;
+}
+
+.Seccion_Noticia {
+    background-color: #0e1e41;
+    margin: 10px;
+}
+
+.Multimedia {
+    background-color: rgb(0, 140, 255);
+    background-image: url(./../img/Estrelas\ espaciais\ padrão\ sem\ emenda\ de\ galáxia\ de\ fundo\ isolado\ em\ fundo\ azul\ _\ Vetor\ Premium.jpeg);
+    margin: 40px;
+}
+
+.Multimedia h1 {
+    color: aliceblue;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+
+}
+
+.box img {
+    width: 300px;
+    object-fit: cover;
+    padding: 10px;
+    background-color: rgba(1, 47, 87, 0.497);
+}
+    
+.box {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Nosotros {
+    background-color: #03102c;
+    color: aliceblue;
+    padding: 30px;
+    border-color: #626c82;
+   
+}
+
+.texto-creditos {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.texto-creditos a {
+    font-weight: bold;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+
+
+
+
+
+
